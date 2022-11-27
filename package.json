@@ -1,0 +1,14 @@
+{
+  "name": "com.kaiyum.editorutil",
+  "author": "Md Al Kaiyum",
+  "displayName": "EditorUtil",
+  "version": "1.0.0",
+  "unity": "2018.3",
+  "description": "A collection of editor utility classes, extension methods and components to make editor extension faster",
+  "category": "Unity",
+  "keywords": [
+    "editor tools"
+  ],
+  "dependencies": {
+  }
+}
