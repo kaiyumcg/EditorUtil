@@ -2,7 +2,7 @@
   "name": "com.kaiyum.editorutil",
   "displayName": "EditorUtil",
   "version": "1.0.0",
-  "unity": "2020.3.20f1",
+  "unity": "2020.3",
   "description": "A collection of editor utility classes, extension methods and components to make editor extension faster",
   "licence": "MIT",
   "category": "Unity",
