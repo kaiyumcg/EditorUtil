@@ -1,0 +1,5 @@
+This will also contain a setting window where you can on/off 
+		---Cloud Logs
+		---Multiplayer
+		---Development setting
+		---Log related settings etc
