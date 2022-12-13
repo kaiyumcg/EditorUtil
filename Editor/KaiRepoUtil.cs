@@ -6,7 +6,7 @@ using UnityEditor.Compilation;
 using UnityEngine;
 using UnityEditor.Build;
 
-namespace EditorUtil
+namespace KEditorUtil
 {
     public static class KaiRepoUtil
     {
@@ -110,14 +110,6 @@ namespace EditorUtil
                 }
                 currentDefinesInPlayerSetting = result;
             }
-        }
-
-        public static AssemblyName[] GetAssemblies()
-        {
-            //Assembly currentAssembly = typeof(/*enter the class name which contains the assembly references*/).Assembly;
-            //AssemblyName[] referencedAssemblies = currentAssembly.GetReferencedAssemblies();
-            //return referencedAssemblies;
-            return null;
         }
     }
 }
