@@ -3,3 +3,11 @@ This will also contain a setting window where you can on/off
 		---Multiplayer
 		---Development setting
 		---Log related settings etc
+
+
+---paste component support for polymorphic components
+	---One click bake all scene's lighting or set skybox or tweak lighting window values for all
+	---Align transform option in animation rigging package can be used for other purposes as well, 
+		--develop editor extension method for this so that we can do similar alignment for any transform
+			without the need of installing animation rigging package(should be in UnityExt?!?!)
+	---Select all fbx model and assign a material for all of them
