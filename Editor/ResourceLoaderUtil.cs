@@ -80,7 +80,7 @@ namespace KEditorUtil
                 {
                     if (f.EndsWith(".fbx"))
                     {
-                        var allSubAssets = AssetDatabase.LoadAllAssetRepresentationsAtPath(EdUtil.AssetsRelativePath(f));
+                        var allSubAssets = AssetDatabase.LoadAllAssetRepresentationsAtPath(EdUtil.ExAssetsRelativePath(f));
 
                         foreach (var asset in allSubAssets)
                         {
@@ -113,7 +113,7 @@ namespace KEditorUtil
                 {
                     if (f.EndsWith(".asset"))
                     {
-                        var allSubAssets = AssetDatabase.LoadAllAssetRepresentationsAtPath(EdUtil.AssetsRelativePath(f));
+                        var allSubAssets = AssetDatabase.LoadAllAssetRepresentationsAtPath(EdUtil.ExAssetsRelativePath(f));
 
                         foreach (var asset in allSubAssets)
                         {
@@ -147,7 +147,7 @@ namespace KEditorUtil
                 {
                     if (f.EndsWith(".prefab"))
                     {
-                        var loadedPrefabRoot = AssetDatabase.LoadAssetAtPath<GameObject>(EdUtil.AssetsRelativePath(f)); //PrefabUtility.LoadPrefabContents(f);
+                        var loadedPrefabRoot = AssetDatabase.LoadAssetAtPath<GameObject>(EdUtil.ExAssetsRelativePath(f)); //PrefabUtility.LoadPrefabContents(f);
                         if (loadedPrefabRoot != null)
                         {
                             var constraint = loadedPrefabRoot.GetComponent(constraintType.GetType());
@@ -182,7 +182,7 @@ namespace KEditorUtil
                 {
                     if (f.EndsWith(".prefab"))
                     {
-                        var loadedPrefabRoot = AssetDatabase.LoadAssetAtPath<GameObject>(EdUtil.AssetsRelativePath(f)); //PrefabUtility.LoadPrefabContents(f);
+                        var loadedPrefabRoot = AssetDatabase.LoadAssetAtPath<GameObject>(EdUtil.ExAssetsRelativePath(f)); //PrefabUtility.LoadPrefabContents(f);
                         if (loadedPrefabRoot != null)
                         {
                             var constraint = loadedPrefabRoot.GetComponent(constraintType.GetType());
@@ -217,7 +217,7 @@ namespace KEditorUtil
                 {
                     if (f.EndsWith(".prefab"))
                     {
-                        var loadedPrefabRoot = AssetDatabase.LoadAssetAtPath<GameObject>(EdUtil.AssetsRelativePath(f)); //PrefabUtility.LoadPrefabContents(f);
+                        var loadedPrefabRoot = AssetDatabase.LoadAssetAtPath<GameObject>(EdUtil.ExAssetsRelativePath(f)); //PrefabUtility.LoadPrefabContents(f);
                         if (loadedPrefabRoot != null)
                         {
                             urlPrefabPair.Add(f, loadedPrefabRoot);
@@ -244,7 +244,7 @@ namespace KEditorUtil
                 {
                     if (f.EndsWith(".prefab"))
                     {
-                        var loadedPrefabRoot = AssetDatabase.LoadAssetAtPath<GameObject>(EdUtil.AssetsRelativePath(f)); //PrefabUtility.LoadPrefabContents(f);
+                        var loadedPrefabRoot = AssetDatabase.LoadAssetAtPath<GameObject>(EdUtil.ExAssetsRelativePath(f)); //PrefabUtility.LoadPrefabContents(f);
                         if (loadedPrefabRoot != null)
                         {
                             prefabs.Add(loadedPrefabRoot);
